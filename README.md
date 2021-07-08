@@ -2,7 +2,7 @@
 
 ## Portfolio Page
 
-This project contains three html pages which are index, about and contact.
+This project contains three html pages which are homex, about and contact.
 
 ### Details
 
