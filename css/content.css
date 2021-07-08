@@ -1,0 +1,59 @@
+/*Home Page Content*/
+.content-container {
+    font-family: 'Bona Nova', serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 55.2px);
+}
+
+.home-content-container-bg {
+    background-image: url(../img/homepage-bg-img.jpg);
+}
+
+.about-content-container-bg {
+    background-image: url(../img/aboutpage-bg-img.jpg);
+}
+
+.contact-content-container-bg {
+    background-image: url(../img/contactpage-bg-img.jpg);
+}
+
+.content-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 39%;
+}
+
+.content-description h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.content-description h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.content-description p {
+    font-size: 1.5rem;
+}
+
+.content-description a.about-button {
+    display: inline-block;
+    padding: .7rem 1.3rem;
+    border-radius: 15px;
+    color: #000;
+    background-color: #c9bdbd;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    transition: background-color .3s, color .3s;
+}
+
+.content-description a.about-button:hover {
+    color: #FFF;
+    background-color: #111111;
+}
